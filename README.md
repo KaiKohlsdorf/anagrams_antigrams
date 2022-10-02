@@ -10,7 +10,7 @@ Anagrams and Antigrams checks whether a word or phrase is an anagram. An anagram
 Ruby. RSpec gem. The project includes a script file that allows a user to run the project in their terminal.
 
 ### __Setup/Installation__
-If Ruby is needed, it can be downloaded [here](https://www.ruby-lang.org/en/downloads/)
+If Ruby is needed, it can be downloaded [here](https://www.ruby-lang.org/en/downloads/).
 1. Download or clone the [repository](https://github.com/KaiKohlsdorf/anagrams_antigrams) to your local machine
 2. Navigate to the top level of the directory
 3. Open your terminal in this directory
@@ -26,8 +26,7 @@ No bugs have been found or reported.
 
 ### __License__
 
-
-
+[MIT](https://github.com/KaiKohlsdorf/anagrams_antigrams/blob/main/LICENSE)
 
 Copyright (c) 2022 Kai Kohlsdorf
 
