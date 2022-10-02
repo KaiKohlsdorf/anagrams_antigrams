@@ -13,11 +13,14 @@ describe("#anagram") do
   end
 
   it("checks that the input has at least one vowel") do
-    banana = Anagrams.new("banana", "xyz")
+    banana = Anagrams.new("banana", "btn")
     expect(banana.anagram()).to(eq("You need to input actual words!"))
   end
 
-  # it("checks if the inputs are antigrams") do
+  it("checks if the inputs are antigrams") do
+    antigram = Anagrams.new("antigram", "spy")
+    expect(antigram.anagram()).to(eq("These words have no letter matches and are antigrams."))
+  end
 
   # it("accounts for two sentences being compared as anagrams or 'antigrams'") do
 
