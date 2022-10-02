@@ -11,8 +11,11 @@ describe("#anagram") do
     dog = Anagrams.new("Dog", "God")
     expect(dog.anagram()).to(eq("These words are anagrams!"))
   end
-  
-    # it("checks if the inputs are words") do
+
+  it("checks that the input has at least one vowel") do
+    banana = Anagrams.new("banana", "xyz")
+    expect(banana.anagram()).to(eq("You need to input actual words!"))
+  end
 
   # it("checks if the inputs are antigrams") do
 

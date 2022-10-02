@@ -12,7 +12,9 @@ class Anagrams
     array_two = word_two.downcase.split("")
 
     if array_one.all? { |array_one| array_two.include?(array_one) } == true && array_one.length == array_two.length
-    'These words are anagrams!'
+      'These words are anagrams!'
+    elsif word_one =~ /["a", "e", "i", "o", "u", "y"]/ || array_two =~ /["a", "e", "i", "o", "u", "y"]/
+      'You need to input actual words!'
     end
   end
 end
