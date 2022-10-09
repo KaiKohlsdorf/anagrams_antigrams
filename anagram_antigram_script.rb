@@ -13,4 +13,3 @@ puts "Enter a second word, phrase, or sentence here:"
 word_two = gets.chomp
 input = Anagrams.new(word_one, word_two)
 puts input.anagram
-end
